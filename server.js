@@ -37,3 +37,5 @@ require('./app/routes/note.routes')(app);
 app.listen(3000, () => {
 	console.log("Server is up and running at port 3000");
 })
+
+module.exports = app;
